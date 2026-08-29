@@ -19,3 +19,4 @@ Thumbs.db
 
 # Logs
 *.logdata/processed, 
+data/processed/ 
