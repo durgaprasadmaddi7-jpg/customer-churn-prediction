@@ -1,4 +1,4 @@
-# Customer Churn Prediction
+# 📊 Customer Churn Prediction
 
 An end-to-end Machine Learning project that predicts whether a customer is likely to churn.
 
@@ -55,8 +55,9 @@ Final Model
 Streamlit Dashboard
         ↓
 Customer Churn Prediction
+```
 
-----
+---
 
 ## 📊 Dashboard Examples
 
@@ -104,6 +105,8 @@ max_depth = 10
 min_samples_split = 2
 min_samples_leaf = 2
 random_state = 42
+```
+
 ---
 
 ## 🧠 Model Development
@@ -116,11 +119,13 @@ Several machine learning models were evaluated during the project, including:
 
 Random Forest achieved the best overall performance based on ROC-AUC and was selected as the final model.
 
+Hyperparameter tuning was performed using **GridSearchCV** with ROC-AUC as the scoring metric.
+
 ---
 
 ## 🎯 Final Prediction Threshold
 
-The default classification threshold was initially 0.50.
+The default classification threshold was initially **0.50**.
 
 After threshold analysis, a threshold of **0.40** was selected for the final model.
 
@@ -187,16 +192,131 @@ customer-churn-prediction/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
-Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Joblib
-Matplotlib
-Seaborn
-Jupyter Notebook
-Streamlit
-Git
-GitHub
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Streamlit
+- Git
+- GitHub
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/durgaprasadmaddi7-jpg/customer-churn-prediction.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd customer-churn-prediction
+```
+
+### 3. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The dashboard will open in your web browser.
+
+---
+
+## 🔮 Example Prediction
+
+An example customer prediction produced the following result:
+
+```text
+Churn Probability: 60.9%
+Prediction: 1
+Result: Customer is likely to churn
+```
+
+A prediction of `1` indicates that the model predicts the customer is likely to churn.
+
+A prediction of `0` indicates that the model predicts the customer is unlikely to churn.
+
+---
+
+## 🔍 Key Features
+
+- Data understanding
+- Data cleaning
+- Exploratory Data Analysis
+- Feature engineering
+- Categorical feature encoding
+- Feature scaling
+- Multiple machine learning models
+- Random Forest hyperparameter tuning
+- ROC-AUC evaluation
+- Churn probability prediction
+- Classification threshold tuning
+- Interactive Streamlit dashboard
+- Low, Medium, and High risk indicators
+
+---
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+- Adding more advanced machine learning models
+- Improving hyperparameter optimization
+- Adding feature importance visualization
+- Adding SHAP-based model explainability
+- Adding customer segmentation
+- Adding more dashboard visualizations
+- Integrating real-time customer data
+- Implementing automated model retraining
+- Improving dashboard user experience
+
+---
+
+## ✅ Project Status
+
+**Completed**
+
+The project currently includes:
+
+- ✅ Data understanding
+- ✅ Data cleaning
+- ✅ Exploratory data analysis
+- ✅ Feature engineering
+- ✅ Train/test split
+- ✅ Data preprocessing
+- ✅ Model training
+- ✅ Model comparison
+- ✅ Random Forest hyperparameter tuning
+- ✅ Threshold tuning
+- ✅ Final model
+- ✅ Streamlit dashboard
+- ✅ Dashboard risk-level examples
+- ✅ GitHub documentation
+
+---
+
+## 👨‍💻 Author
+
+**Durga Prasad**
+
+This project was developed as an end-to-end Machine Learning project to understand the complete workflow from raw data to model deployment.
