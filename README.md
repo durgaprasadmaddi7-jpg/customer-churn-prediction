@@ -317,6 +317,6 @@ The project currently includes:
 
 ## 👨‍💻 Author
 
-**Durga Prasad**
+**DURGA PRASAD MADDI**
 
 This project was developed as an end-to-end Machine Learning project to understand the complete workflow from raw data to model deployment.
